@@ -10,7 +10,7 @@
 		F90D209E1E700E83000C1A94 /* SCLazyScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90D20941E700E83000C1A94 /* SCLazyScrollView.framework */; };
 		F90D20A31E700E83000C1A94 /* SCLazyScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D20A21E700E83000C1A94 /* SCLazyScrollViewTests.swift */; };
 		F90D20A51E700E83000C1A94 /* SCLazyScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = F90D20971E700E83000C1A94 /* SCLazyScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F90D20B21E700E8C000C1A94 /* SCLazyScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D20B01E700E8C000C1A94 /* SCLazyScrollView.swift */; };
+		F90D20B51E701120000C1A94 /* SCLazyScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D20B41E701120000C1A94 /* SCLazyScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 		F90D209D1E700E83000C1A94 /* SCLazyScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCLazyScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90D20A21E700E83000C1A94 /* SCLazyScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCLazyScrollViewTests.swift; sourceTree = "<group>"; };
 		F90D20A41E700E83000C1A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F90D20B01E700E8C000C1A94 /* SCLazyScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLazyScrollView.swift; sourceTree = "<group>"; };
+		F90D20B41E701120000C1A94 /* SCLazyScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLazyScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 		F90D208A1E700E83000C1A94 = {
 			isa = PBXGroup;
 			children = (
-				F90D20AE1E700E8C000C1A94 /* Classes */,
+				F90D20B31E701120000C1A94 /* Classes */,
 				F90D20961E700E83000C1A94 /* SCLazyScrollView */,
 				F90D20A11E700E83000C1A94 /* SCLazyScrollViewTests */,
 				F90D20951E700E83000C1A94 /* Products */,
@@ -89,13 +89,12 @@
 			path = SCLazyScrollViewTests;
 			sourceTree = "<group>";
 		};
-		F90D20AE1E700E8C000C1A94 /* Classes */ = {
+		F90D20B31E701120000C1A94 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F90D20B01E700E8C000C1A94 /* SCLazyScrollView.swift */,
+				F90D20B41E701120000C1A94 /* SCLazyScrollView.swift */,
 			);
-			name = Classes;
-			path = ../Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F90D20B21E700E8C000C1A94 /* SCLazyScrollView.swift in Sources */,
+				F90D20B51E701120000C1A94 /* SCLazyScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +414,7 @@
 				F90D20AA1E700E83000C1A94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F90D20AB1E700E83000C1A94 /* Build configuration list for PBXNativeTarget "SCLazyScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +423,7 @@
 				F90D20AD1E700E83000C1A94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
